@@ -43,27 +43,27 @@ header {
 }
 
 #menu{
-    color: brown;
-    background-color: white;
+    color: white;
     position: absolute;
     right: 10%;
     top: 30px;
-    width: 10%;
-    border: 1px solid;
-    border-radius: 10px;
     padding: 7px;
+    font-size: 1.5em;
 }
 
 #pesquisar{
-    color: brown;
-    background-color: white;
+    color: white;
     position: absolute;
     left: 10%;
     top: 30px;
-    width: 10%;
-    border: 1px solid;
-    border-radius: 10px;
     padding: 7px;
+    font-size: 1.5em;
+}
+
+.pesq {
+    margin: 10px;
+    width: 20%;
+    position: absolute;
 }
 
 header p {
