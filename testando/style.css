@@ -1,7 +1,53 @@
-img{
-    width: 100%;
+
+#container{
+    
+    margin: auto;
+    text-align: center;
 }
 
-#carouselExampleIndicators{
-    width: 500px;
+.titulo_imgs {
+    padding: 10px;
 }
+
+.conteudo {
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    #container img {
+        width: 90%;
+    }
+}
+@media screen and (min-width: 500px) {
+    .rows{
+        width: 200px;
+    }
+    #container img {
+        width: 100%;
+    }
+}
+
+.rows{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 6px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#container img {
+    margin: auto;
+}
+
+.title_rows{
+    margin: 10px 0px 10px 0px;
+    text-decoration: underline;
+}
+
+.info_rows{
+    text-align: start;
+    text-indent: 15px;
+    margin: 10px 10px 10px 10px;
+}
+
